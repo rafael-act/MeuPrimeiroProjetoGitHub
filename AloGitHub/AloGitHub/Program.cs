@@ -19,6 +19,11 @@ namespace AloGitHub
             EscreveNaTela2(txt);
         }
 
+        static void EscreveNaTela4(String txt)
+        {
+            EscreveNaTela3(txt);
+        }
+
         static void Main(string[] args)
         {
             EscreveNaTela("Primeiro Teste com o GitHub");
