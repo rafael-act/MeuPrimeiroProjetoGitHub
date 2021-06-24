@@ -4,9 +4,9 @@ namespace AloGitHub
 {
     class Program
     {
-        static void EscreveNaTela(String txt)
+        static void EscreveNaTela()
         {
-            Console.WriteLine(txt);
+            Console.WriteLine("Primeiro Teste com o GitHub");
         }
 
         static void EscreveNaTela2(String txt)
@@ -21,7 +21,7 @@ namespace AloGitHub
 
         static void Main(string[] args)
         {
-            EscreveNaTela("Primeiro Teste com o GitHub");
+            EscreveNaTela();
             Console.ReadKey();
         }
     }
